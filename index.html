@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery.js"></script>
+    <title>Form Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><b>Form Survey</b></h1>
+        <p>Form Survey Pengembangan Minat dan Bakat Mahasiswa</p>
+        <hr style="color: black; background-color: black" />
+      </div>
+      <div class="content">
+        <p>Isi data berikut untuk database kampus</p>
+        <div class="form">
+          <form action="">
+            <label for="nama">Nama</label> <br />
+            <input type="text" placeholder="Masukkan Nama" /> <br />
+            <label for="npm">NPM</label> <br />
+            <input type="number" placeholder="Masukan NPM" /> <br />
+            <label for="prodi">Prodi</label> <br />
+            <input type="text" placeholder="Masukkan Prodi" /> <br />
+            <label for="semester">Semester</label><br />
+            <input type="number" placeholder="Masukkan Semester Sekarang" />
+            <br />
+            <label for="hobi">Hobi</label> <br />
+            <input type="text" placeholder="Masukkan Hobi" /> <br />
+            <select name="ukm" id="">
+              <option value="seni">Pilih UKM yang diminati</option>
+              <hr />
+              <option value="olahraga">Olahraga</option>
+              <option value="beladiri">Bela Diri</option>
+              <option value="robotik">Robotik</option>
+            </select>
+            <br />
+            <a href="#"><button class="button">Submit</button></a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
